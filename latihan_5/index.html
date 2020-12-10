@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UAS STUPRO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' type='text/css' href='assets/style.css'>
+</head>
+<body>
+	<header class="navtab_container" id="navbar">					
+    	<nav class="menu_container">
+      <div class="nav" id="menu">
+      		<div id="close" onclick="onClickClose()">
+      		<div class="close1"></div>
+      		<div class="close2"></div>
+      		</div>
+      	<h1 class="nav_link_top">
+      		<a href="index.html">HOME</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="get_involved.html">GET INVOLVED</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">EVENTS</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">MATERIAL</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">FILM FESTIVAL</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">MESSAGES</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">MEDIA</a>
+      	</h1>
+      </div>
+      	<div id="burger" onclick="onClickOpen()">
+      		<div class="line1"></div>
+      		<div class="line2"></div>
+      		<div class="line3"></div>
+      	</div>
+      	<div style="background: background: #073057; opacity: 0.9; box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);">
+	    </nav>
+		<div style="background-image: url('assets/img/wwd.png');" class="logo"></div>
+	</header>
+
+<main>
+	<div class="home_container_image">
+		<div class="home_container_image_mobile"></div>
+		<h1 class="eyebrow">03 March</h1>
+		<h1 class="title">World Wildlife Day</h1>
+		<h1 class="subtitle">An occasion to denounce wildlife crime</h1>
+		<div>
+		<a href="get_involved.html" class="get_involved_button">
+		<div class="get_involved_button_text">GET INVOLVED</div>
+		</a>
+		</div>
+		<img src="assets/img/arrow.png" class="arrow">	
+	</div>
+	<div style="background-image: url('assets/img/wallpaper1.png');" class="about_background">
+		<h1 class="about">About</h1>
+		<p class="about_isi">On 20 December 2013, at its 68th session, the United Nations General Assembly (UNGA) proclaimed 3 March – the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) in 1973 – as UN World Wildlife Day to celebrate and raise awareness of the world’s wild animals and plants.</p>
+		<a href="about.html" class="learnmore_button">Learn More</a>
+		</div>
+	</div>
+	
+	<div style="background: linear-gradient(180deg, #052747 0%, #02111F 100.04%);" class="home_container_gradient">
+		<div class="longcards_container">
+			<div class="longcard_antonio">
+				<div class="readmore_antonio_button">
+					<a href="antonio.html" class="readmore_antonio">
+					<div class="readmore_antonio_text">Read More</div>
+					</a>
+				</div>
+				<div>
+					<h1 class="first_short_header">ANTÓNIO GUTERRES SECRETARY-GENERAL UNITED NATIONS</h1>
+					<p class="first_short_paragraph">Humanity is an inextricable part of the rich tapestry of life that makes up our world’s biological diversity. All human civilizations have been and continue to be built on the use of wild and cultivated...</p>
+					<img src="assets/img/antonio.jpg" class="longcard_img">
+				</div>
+			</div>
+
+			<div class="longcard_ivonne">
+				<div class="readmore_ivonne_button">
+					<a href="ivonne.html" class="readmore_ivonne">
+					<div class="readmore_ivonne_text">Read More</div>
+					</a>
+				</div>
+				<div>
+					<h1 class="first_short_header">IVONNE HIGUERO SECRETARY-GENERAL CITES SECRETARIAT</h1>
+					<p class="first_short_paragraph">We are extremely fortunate to count on the presence of an endless diversity of wild animals, plants, and other lifeforms that together make up life on our planet. Humans around the world benefit...</p>
+					<img src="assets/img/ivonne.jpg" class="longcard_img">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div style="background: #A0B4C8;" class="footer">
+		<h1 class="partner">PARTNER</h1>
+			<div>
+				<img src="assets/img/partner_logo.png" class="partner_logo">
+			</div>
+		<p class="footer_text">
+		This site is managed by the CITIES Secretariat
+		<br>
+		<br>
+		Designed by Sean Michael</p>
+	</div>
+	
+</main>
+</body>
+</html>
+
+<script>
+
+function onClickOpen(){
+	document.getElementById("menu").style.marginRight = "0px";
+	document.getElementById("menu").style.display = "block";
+	document.getElementById("menu").style.transition = "0.5s";
+}
+
+function onClickClose(){
+	document.getElementById("menu").style.marginRight = "-250px";
+	document.getElementById("menu").style.transition = "0.5s";
+}
+
+</script>

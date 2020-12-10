@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UAS STUPRO</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='assets/style.css'>
+	<script src="assets/menu_data.js"></script>
+</head>
+<body>
+	<header class="navtab_container" id="navbar">					
+    	<nav class="menu_container">
+    	<a href="index.html" class="back">Back</a>
+      <div class="nav" id="menu">
+      		<div id="close" onclick="onClickClose()">
+      		<div class="close1"></div>
+      		<div class="close2"></div>
+      		</div>
+      	<h1 class="nav_link_top">
+      		<a href="index.html">HOME</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="get_involved.html">GET INVOLVED</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">EVENTS</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">MATERIAL</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">FILM FESTIVAL</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">MESSAGES</a>
+      	</h1>
+      	<h1 class="nav_link">
+      		<a href="">MEDIA</a>
+      	</h1>
+      </div>
+      	<div id="burger" onclick="onClickOpen()">
+      		<div class="line1"></div>
+      		<div class="line2"></div>
+      		<div class="line3"></div>
+      	</div>
+      	<div style="background: background: #073057; opacity: 0.9; box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);">
+	    </nav>
+		<div style="background-image: url('assets/img/wwd.png');" class="logo_2"></div>
+	</header>
+
+
+<main>
+	<div class="long_img_background_about">
+		<div class="long_img" style="background-image: url(assets/img/wwd_photo1.png);">
+			<h1 class="page_title_about">About</h1>
+		</div>
+	</div>
+
+	<section class="about_container" style="background: #E5EDFA;">
+		<div id="about_paragraph">
+		<p><strong>On 20 December 2013, at its 68th session,</strong> the United Nations General Assembly (UNGA) proclaimed 3 March, the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), as UN World Wildlife Day to celebrate and raise awareness of the world’s wild animals and plants.
+		<br><br>
+		The UNGA resolution also designated the CITES Secretariat as the facilitator for the global observance of this special day for wildlife on the UN calendar. World Wildlife Day has now become the most important global annual event dedicated to wildlife.
+		<br><br>
+		World Wildlife Day will be celebrated in 2020 under the theme "Sustaining all life on Earth", encompassing all wild animal and plant species as key components of the world's biodiversity. This aligns with UN Sustainable Development Goals 1, 12, 14 and 15, and their wide-ranging commitments on alleviating poverty, ensuring sustainable use of resources, and on conserving life both on land and below water to halt biodiversity loss.</p>
+		
+		<div class="about_img" style="background-image: url('assets/img/about_wwd_img.jpg');"></div>
+
+		<p>Earth is home to countless species of fauna and flora – too many to even attempt counting. This rich diversity, and the billions of years during which its myriad elements have interacted, are precisely what has made our planet inhabitable for all living creatures, including humans. Historically, we have depended on the constant interplay and interlinkages between all elements of the biosphere for all our needs: the air we breathe, the food we eat, the energy we use, and the materials we need for all purposes. 	
+		<br><br>
+		However, unsustainable human activities and overexploitation of the species and natural resources that make up the habitats and ecosystems of all wildlife are imperiling the world’s biodiversity. Nearly a quarter of all species are presently at risk of going extinct in the coming decades, and their demise would only speed up the disappearance of countless others, putting us in danger as well.
+		<br><br>
+		On World Wildlife Day 2020, we will celebrate the special place of wild plants and animals in their many varied and beautiful forms as a component of the world’s biological diversity. We will work to raise awareness of the multitude of benefits of wildlife to people, particularly to those communities who live in closest proximity to it, and we will discuss the threats they are facing and the urgent need for governments, civil society, private sector actors and individuals to add their voices and take actions to help conserve wildlife and ensure its continued use is sustainable.</p>
+		</div>
+	</section>
+	<div style="background: #A0B4C8;" class="page_footer">
+		<h1 class="partner">PARTNER</h1>
+			<div>
+				<img src="assets/img/partner_logo.png" class="partner_logo">
+			</div>
+		<p class="footer_text">
+		This site is managed by the CITIES Secretariat
+		<br>
+		<br>
+		Designed by Sean Michael</p>
+	</div>
+</main>
+</body>
+</html>
+
+<script>
+function onClickOpen(){
+	document.getElementById("menu").style.marginRight = "0px";
+	document.getElementById("menu").style.display = "block";
+	document.getElementById("menu").style.transition = "0.5s";
+}
+
+function onClickClose(){
+	document.getElementById("menu").style.marginRight = "-250px";
+	document.getElementById("menu").style.transition = "0.5s";
+}
+
+
+</script>
