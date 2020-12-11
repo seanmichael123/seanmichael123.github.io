@@ -268,7 +268,7 @@ a:hover {
 
 .first_short_paragraph{
 	position: absolute;
-	width: 697px;
+	max-width: 40vw;
 	height: 86px;
 	left: 59px;
 	top: 144px;
@@ -300,7 +300,7 @@ a:hover {
 
 .first_short_header{
 	position: absolute;
-	width: 600px;
+	max-width: 40vw;
 	height: 90px;
 	left: 59px;
 	top: 66px;
